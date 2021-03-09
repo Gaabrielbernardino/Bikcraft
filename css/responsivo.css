@@ -1,0 +1,111 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /*Qualidade home*/
+  .qualidade::after {
+    display: none;
+  }
+  .qualidade-lista li {
+    padding: 0 10px;
+  }
+  /*footer*/
+  .footer-redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 6px;
+  }
+  .footer-redes ul li a img {
+    width: 26px;
+    height: 26px;
+  }
+  /*Produtos*/
+
+  .produto-icone {
+    padding: 41px 0;
+  }
+}
+
+/*Estilo para smartphones*/
+@media only screen and (max-width: 767px) {
+  .header {
+    position: relative;
+    padding-bottom: 0px;
+  }
+
+  .header img {
+    margin: 0 auto 20px auto;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+    text-align: center;
+  }
+  .header_menu ul li a {
+    border: 4px solid #000;
+    width: 136px;
+    display: block;
+    float: left;
+  }
+  .header_menu ul li a:hover {
+    border-color: #fff;
+  }
+
+  .header_menu ul li a.menu-ativo {
+    border-color: #fff;
+  }
+
+  /*Introducao*/
+  .introducao {
+    margin-top: 0px;
+    padding-top: 10px;
+    background: url("../img/bg-mobile.jpg") no-repeat center;
+    background-size: cover;
+  }
+  .introducao h1 {
+    font-size: 36px;
+  }
+  /*Introducao interna*/
+
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
+  /*Call*/
+
+  .call {
+    padding: 10px;
+  }
+  .qualidade::after {
+    display: none;
+  }
+  /*sobre*/
+
+  .missao-sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+  .missao-sobre ul li {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  /*Produtos*/
+  .produto-item h2 {
+    top: -100px;
+    margin-bottom: -68px;
+  }
+  /*orcamento*/
+
+  .form {
+    padding-right: 0px;
+  }
+
+  .orcamento-dados {
+    padding-right: 0px;
+  }
+  /*Contatos*/
+
+  .contato-form {
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+}
